@@ -1,0 +1,46 @@
+.listar-peliculas{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.peli-head{
+    background-color: #FFBA00 !important;
+}
+
+.pelicula {
+    width: 200px !important;
+    margin: 1em;
+    background-color: #FFBA00;
+}
+
+.pelicula img{
+    border-top-left-radius: .25rem !important;
+    border-top-right-radius: .25rem !important;
+}
+
+.filtro p{
+    color: #000;
+    padding-left: 32px;
+    font-size: 14px;
+    display: block;
+    line-height: 50px;
+    border-bottom: 1px solid #eee;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.filtroactivo p{
+    color: #FFBA00 !important;
+}
+
+.pelicula h3{
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+    border-top: 2px solid #FFBA00;
+}
+
+.btn .btn-outline-warning svg:hover{
+    color: white !important;
+}

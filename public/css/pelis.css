@@ -1,0 +1,20 @@
+.peli{
+    height: auto;
+}
+
+.peli img{
+    border-radius: 10px 10px 0px 0px;
+    border: solid 2px #FE6D00;
+}
+
+.peli h5{
+    padding: 1em;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.peliculas .selected{
+    transform: scale(0.9);
+    opacity: 0.8;
+}

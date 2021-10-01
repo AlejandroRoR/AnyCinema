@@ -1,0 +1,20 @@
+.titulo-historial{
+    background-color: #FFB900 !important;
+}
+
+.titulo-historial h3{
+    color: white !important;
+}
+
+.page-item.active .page-link{
+    background-color: #FFB900 !important; 
+    border-color:#FFB900 !important;
+    color: white !important;
+}
+.page-item .page-link{
+    color:#FFB900 !important;
+}
+
+.page-item .page-link:hover{
+    color:white !important;
+}
